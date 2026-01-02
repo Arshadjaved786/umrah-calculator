@@ -1,0 +1,940 @@
+[
+  {
+    "id": "khi",
+    "name": "Jinnah International Airport",
+    "iata": "KHI",
+    "country": "Pakistan"
+  },
+  {
+    "id": "lhe",
+    "name": "Allama Iqbal International Airport",
+    "iata": "LHE",
+    "country": "Pakistan"
+  },
+  {
+    "id": "isb",
+    "name": "Islamabad International Airport",
+    "iata": "ISB",
+    "country": "Pakistan"
+  },
+  {
+    "id": "pew",
+    "name": "Bacha Khan International Airport (Peshawar)",
+    "iata": "PEW",
+    "country": "Pakistan"
+  },
+  {
+    "id": "uet",
+    "name": "Quetta International Airport",
+    "iata": "UET",
+    "country": "Pakistan"
+  },
+  {
+    "id": "mux",
+    "name": "Multan International Airport",
+    "iata": "MUX",
+    "country": "Pakistan"
+  },
+  {
+    "id": "skt",
+    "name": "Sialkot International Airport",
+    "iata": "SKT",
+    "country": "Pakistan"
+  },
+  {
+    "id": "lyp",
+    "name": "Faisalabad International Airport",
+    "iata": "LYP",
+    "country": "Pakistan"
+  },
+  {
+    "id": "gwd",
+    "name": "Jinnah International Airport Gwadar",
+    "iata": "GWD",
+    "country": "Pakistan"
+  },
+  {
+    "id": "tuk",
+    "name": "Turbat International Airport",
+    "iata": "TUK",
+    "country": "Pakistan"
+  },
+  {
+    "id": "kdu",
+    "name": "Skardu Airport",
+    "iata": "KDU",
+    "country": "Pakistan"
+  },
+  {
+    "id": "gil",
+    "name": "Gilgit Airport",
+    "iata": "GIL",
+    "country": "Pakistan"
+  },
+  {
+    "id": "rys",
+    "name": "Rahim Yar Khan Airport",
+    "iata": "RYK",
+    "country": "Pakistan"
+  },
+  {
+    "id": "bwp",
+    "name": "Bahawalpur Airport",
+    "iata": "BHV",
+    "country": "Pakistan"
+  },
+  {
+    "id": "hyderabad_pak",
+    "name": "Hyderabad (Sindh) Airport",
+    "iata": "HDD",
+    "country": "Pakistan"
+  },
+  {
+    "id": "nch",
+    "name": "Nawabshah (Shaheed Benazirabad) Airport",
+    "iata": "WNS",
+    "country": "Pakistan"
+  },
+  {
+    "id": "dgk",
+    "name": "Dera Ghazi Khan Airport",
+    "iata": "DEA",
+    "country": "Pakistan"
+  },
+  {
+    "id": "skz",
+    "name": "Sukkur Airport",
+    "iata": "SKZ",
+    "country": "Pakistan"
+  },
+  {
+    "id": "bnl",
+    "name": "Bannu Airport",
+    "iata": "BNP",
+    "country": "Pakistan"
+  },
+  {
+    "id": "lhr_int",
+    "name": "Heathrow Airport",
+    "iata": "LHR",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "lgw",
+    "name": "Gatwick Airport",
+    "iata": "LGW",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "man",
+    "name": "Manchester Airport",
+    "iata": "MAN",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "jfk",
+    "name": "John F. Kennedy International Airport",
+    "iata": "JFK",
+    "country": "United States"
+  },
+  {
+    "id": "ewr",
+    "name": "Newark Liberty International Airport",
+    "iata": "EWR",
+    "country": "United States"
+  },
+  {
+    "id": "lax",
+    "name": "Los Angeles International Airport",
+    "iata": "LAX",
+    "country": "United States"
+  },
+  {
+    "id": "ord",
+    "name": "O'Hare International Airport",
+    "iata": "ORD",
+    "country": "United States"
+  },
+  {
+    "id": "dfw",
+    "name": "Dallas/Fort Worth International Airport",
+    "iata": "DFW",
+    "country": "United States"
+  },
+  {
+    "id": "den",
+    "name": "Denver International Airport",
+    "iata": "DEN",
+    "country": "United States"
+  },
+  {
+    "id": "mia",
+    "name": "Miami International Airport",
+    "iata": "MIA",
+    "country": "United States"
+  },
+  {
+    "id": "sfo",
+    "name": "San Francisco International Airport",
+    "iata": "SFO",
+    "country": "United States"
+  },
+  {
+    "id": "iat",
+    "name": "Istanbul Airport",
+    "iata": "IST",
+    "country": "Turkey"
+  },
+  {
+    "id": "ayt",
+    "name": "Antalya Airport",
+    "iata": "AYT",
+    "country": "Turkey"
+  },
+  {
+    "id": "ams",
+    "name": "Amsterdam Airport Schiphol",
+    "iata": "AMS",
+    "country": "Netherlands"
+  },
+  {
+    "id": "cdg",
+    "name": "Charles de Gaulle Airport",
+    "iata": "CDG",
+    "country": "France"
+  },
+  { "id": "ory", "name": "Orly Airport", "iata": "ORY", "country": "France" },
+  {
+    "id": "fco",
+    "name": "Leonardo da Vinci–Fiumicino Airport",
+    "iata": "FCO",
+    "country": "Italy"
+  },
+  {
+    "id": "mxp",
+    "name": "Malpensa Airport",
+    "iata": "MXP",
+    "country": "Italy"
+  },
+  {
+    "id": "mad",
+    "name": "Adolfo Suárez Madrid–Barajas Airport",
+    "iata": "MAD",
+    "country": "Spain"
+  },
+  {
+    "id": "bar",
+    "name": "Barcelona–El Prat Airport",
+    "iata": "BCN",
+    "country": "Spain"
+  },
+  {
+    "id": "fra",
+    "name": "Frankfurt Airport",
+    "iata": "FRA",
+    "country": "Germany"
+  },
+  {
+    "id": "muc",
+    "name": "Munich Airport",
+    "iata": "MUC",
+    "country": "Germany"
+  },
+  {
+    "id": "hel",
+    "name": "Helsinki Airport",
+    "iata": "HEL",
+    "country": "Finland"
+  },
+  {
+    "id": "vce",
+    "name": "Venice Marco Polo Airport",
+    "iata": "VCE",
+    "country": "Italy"
+  },
+  {
+    "id": "zrh",
+    "name": "Zurich Airport",
+    "iata": "ZRH",
+    "country": "Switzerland"
+  },
+  {
+    "id": "gva",
+    "name": "Geneva Airport",
+    "iata": "GVA",
+    "country": "Switzerland"
+  },
+  {
+    "id": "cph",
+    "name": "Copenhagen Airport",
+    "iata": "CPH",
+    "country": "Denmark"
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo Gardermoen Airport",
+    "iata": "OSL",
+    "country": "Norway"
+  },
+  {
+    "id": "arn",
+    "name": "Stockholm Arlanda Airport",
+    "iata": "ARN",
+    "country": "Sweden"
+  },
+  {
+    "id": "bkk",
+    "name": "Suvarnabhumi Airport",
+    "iata": "BKK",
+    "country": "Thailand"
+  },
+  {
+    "id": "dmk",
+    "name": "Don Mueang International Airport",
+    "iata": "DMK",
+    "country": "Thailand"
+  },
+  {
+    "id": "hkg",
+    "name": "Hong Kong International Airport",
+    "iata": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "id": "sin",
+    "name": "Changi Airport",
+    "iata": "SIN",
+    "country": "Singapore"
+  },
+  {
+    "id": "kix",
+    "name": "Kansai International Airport",
+    "iata": "KIX",
+    "country": "Japan"
+  },
+  {
+    "id": "nrt",
+    "name": "Narita International Airport",
+    "iata": "NRT",
+    "country": "Japan"
+  },
+  {
+    "id": "han",
+    "name": "Noi Bai International Airport",
+    "iata": "HAN",
+    "country": "Vietnam"
+  },
+  {
+    "id": "sgn",
+    "name": "Tan Son Nhat International Airport",
+    "iata": "SGN",
+    "country": "Vietnam"
+  },
+  {
+    "id": "bom",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "iata": "BOM",
+    "country": "India"
+  },
+  {
+    "id": "del",
+    "name": "Indira Gandhi International Airport",
+    "iata": "DEL",
+    "country": "India"
+  },
+  {
+    "id": "hyd",
+    "name": "Rajiv Gandhi International Airport",
+    "iata": "HYD",
+    "country": "India"
+  },
+  {
+    "id": "bey",
+    "name": "Beirut–Rafic Hariri International Airport",
+    "iata": "BEY",
+    "country": "Lebanon"
+  },
+  {
+    "id": "rua",
+    "name": "King Khalid International Airport",
+    "iata": "RUH",
+    "country": "Saudi Arabia"
+  },
+  {
+    "id": "jed",
+    "name": "King Abdulaziz International Airport",
+    "iata": "JED",
+    "country": "Saudi Arabia"
+  },
+  {
+    "id": "med",
+    "name": "Prince Mohammad bin Abdulaziz Airport",
+    "iata": "MED",
+    "country": "Saudi Arabia"
+  },
+  {
+    "id": "dmm",
+    "name": "King Fahd International Airport",
+    "iata": "DMM",
+    "country": "Saudi Arabia"
+  },
+  {
+    "id": "auh",
+    "name": "Abu Dhabi International Airport",
+    "iata": "AUH",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": "dxb",
+    "name": "Dubai International Airport",
+    "iata": "DXB",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": "shj",
+    "name": "Sharjah International Airport",
+    "iata": "SHJ",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": "doha",
+    "name": "Hamad International Airport",
+    "iata": "DOH",
+    "country": "Qatar"
+  },
+  {
+    "id": "bna",
+    "name": "Nashville International Airport",
+    "iata": "BNA",
+    "country": "United States"
+  },
+  {
+    "id": "yyz",
+    "name": "Toronto Pearson International Airport",
+    "iata": "YYZ",
+    "country": "Canada"
+  },
+  {
+    "id": "yvr",
+    "name": "Vancouver International Airport",
+    "iata": "YVR",
+    "country": "Canada"
+  },
+  {
+    "id": "yhz",
+    "name": "Halifax Stanfield International Airport",
+    "iata": "YHZ",
+    "country": "Canada"
+  },
+  {
+    "id": "yul",
+    "name": "Montréal–Trudeau International Airport",
+    "iata": "YUL",
+    "country": "Canada"
+  },
+  {
+    "id": "syd",
+    "name": "Sydney Kingsford Smith Airport",
+    "iata": "SYD",
+    "country": "Australia"
+  },
+  {
+    "id": "mel",
+    "name": "Melbourne Airport",
+    "iata": "MEL",
+    "country": "Australia"
+  },
+  {
+    "id": "bne",
+    "name": "Brisbane Airport",
+    "iata": "BNE",
+    "country": "Australia"
+  },
+  {
+    "id": "akl",
+    "name": "Auckland Airport",
+    "iata": "AKL",
+    "country": "New Zealand"
+  },
+  {
+    "id": "cpt",
+    "name": "Cape Town International Airport",
+    "iata": "CPT",
+    "country": "South Africa"
+  },
+  {
+    "id": "jnb",
+    "name": "O. R. Tambo International Airport",
+    "iata": "JNB",
+    "country": "South Africa"
+  },
+  {
+    "id": "cae",
+    "name": "Addis Ababa Bole International Airport",
+    "iata": "ADD",
+    "country": "Ethiopia"
+  },
+  {
+    "id": "acc",
+    "name": "Kotoka International Airport",
+    "iata": "ACC",
+    "country": "Ghana"
+  },
+  {
+    "id": "lag",
+    "name": "Murtala Muhammed International Airport",
+    "iata": "LOS",
+    "country": "Nigeria"
+  },
+  {
+    "id": "dxb2",
+    "name": "Al Maktoum International Airport",
+    "iata": "DWC",
+    "country": "United Arab Emirates"
+  },
+  {
+    "id": "melb2",
+    "name": "Essendon (small)",
+    "iata": "MEB",
+    "country": "Australia"
+  },
+  {
+    "id": "man2",
+    "name": "Birmingham Airport",
+    "iata": "BHX",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "edi",
+    "name": "Edinburgh Airport",
+    "iata": "EDI",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "sov",
+    "name": "Stavanger Airport",
+    "iata": "SVG",
+    "country": "Norway"
+  },
+  {
+    "id": "tpe",
+    "name": "Taiwan Taoyuan International Airport",
+    "iata": "TPE",
+    "country": "Taiwan"
+  },
+  {
+    "id": "khi2",
+    "name": "Second Karachi (placeholder)",
+    "iata": "KHI2",
+    "country": "Pakistan"
+  },
+  {
+    "id": "pty",
+    "name": "Tocumen International Airport",
+    "iata": "PTY",
+    "country": "Panama"
+  },
+  {
+    "id": "scl",
+    "name": "Comodoro Arturo Merino Benítez International Airport",
+    "iata": "SCL",
+    "country": "Chile"
+  },
+  {
+    "id": "eze",
+    "name": "Ministro Pistarini International Airport",
+    "iata": "EZE",
+    "country": "Argentina"
+  },
+  {
+    "id": "gru",
+    "name": "São Paulo–Guarulhos International Airport",
+    "iata": "GRU",
+    "country": "Brazil"
+  },
+  {
+    "id": "gig",
+    "name": "Rio de Janeiro–Galeão International Airport",
+    "iata": "GIG",
+    "country": "Brazil"
+  },
+  {
+    "id": "bkk2",
+    "name": "Don Mueang (secondary)",
+    "iata": "DMK2",
+    "country": "Thailand"
+  },
+  {
+    "id": "prg",
+    "name": "Václav Havel Airport Prague",
+    "iata": "PRG",
+    "country": "Czech Republic"
+  },
+  {
+    "id": "waw",
+    "name": "Warsaw Chopin Airport",
+    "iata": "WAW",
+    "country": "Poland"
+  },
+  {
+    "id": "bud",
+    "name": "Budapest Ferenc Liszt International Airport",
+    "iata": "BUD",
+    "country": "Hungary"
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia Airport",
+    "iata": "SOF",
+    "country": "Bulgaria"
+  },
+  {
+    "id": "ath",
+    "name": "Athens International Airport",
+    "iata": "ATH",
+    "country": "Greece"
+  },
+  {
+    "id": "lis",
+    "name": "Lisbon Portela Airport",
+    "iata": "LIS",
+    "country": "Portugal"
+  },
+  {
+    "id": "lga",
+    "name": "LaGuardia Airport",
+    "iata": "LGA",
+    "country": "United States"
+  },
+  {
+    "id": "ord2",
+    "name": "Midway International Airport",
+    "iata": "MDW",
+    "country": "United States"
+  },
+  {
+    "id": "phl",
+    "name": "Philadelphia International Airport",
+    "iata": "PHL",
+    "country": "United States"
+  },
+  {
+    "id": "iad",
+    "name": "Washington Dulles International Airport",
+    "iata": "IAD",
+    "country": "United States"
+  },
+  {
+    "id": "bne2",
+    "name": "Gold Coast Airport",
+    "iata": "OOL",
+    "country": "Australia"
+  },
+  {
+    "id": "per",
+    "name": "Perth Airport",
+    "iata": "PER",
+    "country": "Australia"
+  },
+  {
+    "id": "svo",
+    "name": "Sheremetyevo International Airport",
+    "iata": "SVO",
+    "country": "Russia"
+  },
+  {
+    "id": "dme",
+    "name": "Domodedovo Airport",
+    "iata": "DME",
+    "country": "Russia"
+  },
+  {
+    "id": "svx",
+    "name": "Koltsovo Airport",
+    "iata": "SVX",
+    "country": "Russia"
+  },
+  {
+    "id": "vvo",
+    "name": "Vladivostok International Airport",
+    "iata": "VVO",
+    "country": "Russia"
+  },
+  {
+    "id": "hel2",
+    "name": "Tampere-Pirkkala (small)",
+    "iata": "TMP",
+    "country": "Finland"
+  },
+  {
+    "id": "bnk",
+    "name": "Bandung Husein Sastranegara International Airport",
+    "iata": "BDO",
+    "country": "Indonesia"
+  },
+  {
+    "id": "cgk",
+    "name": "Soekarno–Hatta International Airport",
+    "iata": "CGK",
+    "country": "Indonesia"
+  },
+  {
+    "id": "dps",
+    "name": "Ngurah Rai International Airport",
+    "iata": "DPS",
+    "country": "Indonesia"
+  },
+  {
+    "id": "khi3",
+    "name": "Karachi (alternate)",
+    "iata": "KHIA",
+    "country": "Pakistan"
+  },
+  {
+    "id": "isf",
+    "name": "Isfahan International Airport",
+    "iata": "IFN",
+    "country": "Iran"
+  },
+  {
+    "id": "mct",
+    "name": "Muscat International Airport",
+    "iata": "MCT",
+    "country": "Oman"
+  },
+  {
+    "id": "saw",
+    "name": "Sabiha Gökçen International Airport",
+    "iata": "SAW",
+    "country": "Turkey"
+  },
+  {
+    "id": "mle",
+    "name": "Velana International Airport (Malé)",
+    "iata": "MLE",
+    "country": "Maldives"
+  },
+  {
+    "id": "cjm",
+    "name": "Male (secondary)",
+    "iata": "MDF",
+    "country": "Maldives"
+  },
+  {
+    "id": "vns",
+    "name": "Varanasi International Airport",
+    "iata": "VNS",
+    "country": "India"
+  },
+  {
+    "id": "trv",
+    "name": "Trivandrum International Airport",
+    "iata": "TRV",
+    "country": "India"
+  },
+  {
+    "id": "ccu",
+    "name": "Netaji Subhas Chandra Bose International Airport",
+    "iata": "CCU",
+    "country": "India"
+  },
+  {
+    "id": "blr",
+    "name": "Kempegowda International Airport",
+    "iata": "BLR",
+    "country": "India"
+  },
+  { "id": "pnq", "name": "Pune Airport", "iata": "PNQ", "country": "India" },
+  {
+    "id": "cju",
+    "name": "Jeju International Airport",
+    "iata": "CJU",
+    "country": "South Korea"
+  },
+  {
+    "id": "gmp",
+    "name": "Gimpo International Airport",
+    "iata": "GMP",
+    "country": "South Korea"
+  },
+  {
+    "id": "icn",
+    "name": "Incheon International Airport",
+    "iata": "ICN",
+    "country": "South Korea"
+  },
+  {
+    "id": "oks",
+    "name": "Oksibil (small)",
+    "iata": "OKS",
+    "country": "Indonesia"
+  },
+  {
+    "id": "sxf",
+    "name": "Berlin Schönefeld (now BER)",
+    "iata": "BER",
+    "country": "Germany"
+  },
+  {
+    "id": "nce",
+    "name": "Nice Côte d'Azur Airport",
+    "iata": "NCE",
+    "country": "France"
+  },
+  {
+    "id": "tfs",
+    "name": "Tenerife South Airport",
+    "iata": "TFS",
+    "country": "Spain"
+  },
+  {
+    "id": "las",
+    "name": "McCarran International Airport",
+    "iata": "LAS",
+    "country": "United States"
+  },
+  {
+    "id": "phx",
+    "name": "Phoenix Sky Harbor International Airport",
+    "iata": "PHX",
+    "country": "United States"
+  },
+  {
+    "id": "msy",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "iata": "MSY",
+    "country": "United States"
+  },
+  {
+    "id": "sdf",
+    "name": "Louisville Muhammad Ali International Airport",
+    "iata": "SDF",
+    "country": "United States"
+  },
+  {
+    "id": "okc",
+    "name": "Will Rogers World Airport",
+    "iata": "OKC",
+    "country": "United States"
+  },
+  {
+    "id": "stl",
+    "name": "St. Louis Lambert International Airport",
+    "iata": "STL",
+    "country": "United States"
+  },
+  {
+    "id": "bgi",
+    "name": "Grantley Adams International Airport",
+    "iata": "BGI",
+    "country": "Barbados"
+  },
+  {
+    "id": "nas",
+    "name": "Lynden Pindling International Airport",
+    "iata": "NAS",
+    "country": "Bahamas"
+  },
+  {
+    "id": "gyd",
+    "name": "Heydar Aliyev International Airport",
+    "iata": "GYD",
+    "country": "Azerbaijan"
+  },
+  {
+    "id": "tbs",
+    "name": "Tbilisi International Airport",
+    "iata": "TBS",
+    "country": "Georgia"
+  },
+  {
+    "id": "vra",
+    "name": "Varadero Juan Gualberto Gómez International Airport",
+    "iata": "VRA",
+    "country": "Cuba"
+  },
+  {
+    "id": "sju",
+    "name": "Luis Muñoz Marín International Airport",
+    "iata": "SJU",
+    "country": "Puerto Rico"
+  },
+  {
+    "id": "ltn",
+    "name": "London Luton Airport",
+    "iata": "LTN",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "stn",
+    "name": "London Stansted Airport",
+    "iata": "STN",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "cai",
+    "name": "Cairo International Airport",
+    "iata": "CAI",
+    "country": "Egypt"
+  },
+  {
+    "id": "cmn",
+    "name": "Mohammed V International Airport",
+    "iata": "CMN",
+    "country": "Morocco"
+  },
+  {
+    "id": "gyd2",
+    "name": "Baku (alternate)",
+    "iata": "BAK",
+    "country": "Azerbaijan"
+  },
+  {
+    "id": "tal",
+    "name": "Tashkent International Airport",
+    "iata": "TAS",
+    "country": "Uzbekistan"
+  },
+  {
+    "id": "fru",
+    "name": "Manas International Airport",
+    "iata": "FRU",
+    "country": "Kyrgyzstan"
+  },
+  {
+    "id": "nbo",
+    "name": "Jomo Kenyatta International Airport",
+    "iata": "NBO",
+    "country": "Kenya"
+  },
+  {
+    "id": "mnl",
+    "name": "Ninoy Aquino International Airport",
+    "iata": "MNL",
+    "country": "Philippines"
+  },
+  {
+    "id": "ceb",
+    "name": "Mactan–Cebu International Airport",
+    "iata": "CEB",
+    "country": "Philippines"
+  },
+  {
+    "id": "cjs",
+    "name": "Ciudad Juárez International Airport",
+    "iata": "CJS",
+    "country": "Mexico"
+  },
+  {
+    "id": "mex",
+    "name": "Mexico City International Airport",
+    "iata": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "id": "gdl",
+    "name": "Guadalajara International Airport",
+    "iata": "GDL",
+    "country": "Mexico"
+  }
+]

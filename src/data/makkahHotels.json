@@ -1,0 +1,185 @@
+[
+  {
+    "id": "mkh-001",
+    "city": "Makkah",
+    "name": "Pullman Zamzam Makkah",
+    "stars": 5,
+    "pricePerNight": 1200,
+    "distance": "350m",
+    "image": "/images/makkah/pullman.jpg"
+  },
+  {
+    "id": "mkh-002",
+    "city": "Makkah",
+    "name": "Hilton Suites Makkah",
+    "stars": 5,
+    "pricePerNight": 1350,
+    "distance": "200m",
+    "image": "/images/makkah/hilton-suites.jpg"
+  },
+  {
+    "id": "mkh-003",
+    "city": "Makkah",
+    "name": "Swissotel Makkah",
+    "stars": 5,
+    "pricePerNight": 1250,
+    "distance": "300m",
+    "image": "/images/makkah/swissotel.jpg"
+  },
+  {
+    "id": "mkh-004",
+    "city": "Makkah",
+    "name": "Jabal Omar Marriott Hotel",
+    "stars": 5,
+    "pricePerNight": 1100,
+    "distance": "400m",
+    "image": "/images/makkah/marriott.jpg"
+  },
+  {
+    "id": "mkh-005",
+    "city": "Makkah",
+    "name": "Makkah Clock Royal Tower, A Fairmont Hotel",
+    "stars": 5,
+    "pricePerNight": 1450,
+    "distance": "100m",
+    "image": "/images/makkah/fairmont.jpg"
+  },
+
+  {
+    "id": "mkh-006",
+    "city": "Makkah",
+    "name": "Al Shohada Hotel",
+    "stars": 4,
+    "pricePerNight": 480,
+    "distance": "650m",
+    "image": "/images/makkah/al-shohada.jpg"
+  },
+  {
+    "id": "mkh-007",
+    "city": "Makkah",
+    "name": "Dar Al Eiman Ajyad",
+    "stars": 4,
+    "pricePerNight": 450,
+    "distance": "850m",
+    "image": "/images/makkah/ajyad.jpg"
+  },
+  {
+    "id": "mkh-008",
+    "city": "Makkah",
+    "name": "Anjum Hotel Makkah",
+    "stars": 4,
+    "pricePerNight": 600,
+    "distance": "500m",
+    "image": "/images/makkah/anjum.jpg"
+  },
+  {
+    "id": "mkh-009",
+    "city": "Makkah",
+    "name": "Elaf Ajyad Hotel",
+    "stars": 4,
+    "pricePerNight": 420,
+    "distance": "900m",
+    "image": "/images/makkah/elaf-ajyad.jpg"
+  },
+  {
+    "id": "mkh-010",
+    "city": "Makkah",
+    "name": "Royal Dar Al Eiman",
+    "stars": 4,
+    "pricePerNight": 650,
+    "distance": "200m",
+    "image": "/images/makkah/royal-dar.jpg"
+  },
+
+  {
+    "id": "mkh-011",
+    "city": "Makkah",
+    "name": "Emaar Elite Hotel",
+    "stars": 3,
+    "pricePerNight": 300,
+    "distance": "1000m",
+    "image": "/images/makkah/emaar-elite.jpg"
+  },
+  {
+    "id": "mkh-012",
+    "city": "Makkah",
+    "name": "Al Aseel Ajyad",
+    "stars": 3,
+    "pricePerNight": 270,
+    "distance": "1200m",
+    "image": "/images/makkah/al-aseel.jpg"
+  },
+  {
+    "id": "mkh-013",
+    "city": "Makkah",
+    "name": "Nada Al Deafah Hotel",
+    "stars": 3,
+    "pricePerNight": 250,
+    "distance": "1300m",
+    "image": "/images/makkah/nada.jpg"
+  },
+  {
+    "id": "mkh-014",
+    "city": "Makkah",
+    "name": "Rehab Al Misfalah",
+    "stars": 3,
+    "pricePerNight": 230,
+    "distance": "1500m",
+    "image": "/images/makkah/rehab.jpg"
+  },
+  {
+    "id": "mkh-015",
+    "city": "Makkah",
+    "name": "Jawhara Dar Al Eiman",
+    "stars": 3,
+    "pricePerNight": 240,
+    "distance": "1100m",
+    "image": "/images/makkah/jawhara.jpg"
+  },
+
+  {
+    "id": "mkh-016",
+    "city": "Makkah",
+    "name": "Deyar Al Eiman",
+    "stars": 2,
+    "pricePerNight": 180,
+    "distance": "1800m",
+    "image": "/images/makkah/deyar.jpg"
+  },
+  {
+    "id": "mkh-017",
+    "city": "Makkah",
+    "name": "Nasamat Ajyad",
+    "stars": 2,
+    "pricePerNight": 160,
+    "distance": "2000m",
+    "image": "/images/makkah/nasamat.jpg"
+  },
+  {
+    "id": "mkh-018",
+    "city": "Makkah",
+    "name": "Al Tawfiq Plaza Hotel",
+    "stars": 2,
+    "pricePerNight": 150,
+    "distance": "1900m",
+    "image": "/images/makkah/tawfiq.jpg"
+  },
+  {
+    "id": "mkh-019",
+    "city": "Makkah",
+    "name": "Al Reyadah Al Mashaer",
+    "stars": 2,
+    "pricePerNight": 170,
+    "distance": "1700m",
+    "image": "/images/makkah/reyadah.jpg"
+  },
+  {
+    "id": "mkh-020",
+    "city": "Makkah",
+    "name": "Qasr Al Baloot",
+    "stars": 2,
+    "pricePerNight": 140,
+    "distance": "2100m",
+    "image": "/images/makkah/baloot.jpg"
+  }
+]

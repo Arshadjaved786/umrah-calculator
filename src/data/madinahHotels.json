@@ -1,0 +1,140 @@
+[
+  {
+    "id": "mdn-001",
+    "city": "Madinah",
+    "name": "Anwar Al Madinah Movenpick",
+    "stars": 5,
+    "pricePerNight": 950,
+    "distance": "150m",
+    "image": "/images/madinah/movenpick.jpg"
+  },
+  {
+    "id": "mdn-002",
+    "city": "Madinah",
+    "name": "Pullman Zamzam Madinah",
+    "stars": 5,
+    "pricePerNight": 980,
+    "distance": "180m",
+    "image": "/images/madinah/pullman.jpg"
+  },
+  {
+    "id": "mdn-003",
+    "city": "Madinah",
+    "name": "Shaza Al Madinah",
+    "stars": 5,
+    "pricePerNight": 1100,
+    "distance": "120m",
+    "image": "/images/madinah/shaza.jpg"
+  },
+  {
+    "id": "mdn-004",
+    "city": "Madinah",
+    "name": "Dar Al Taqwa Hotel",
+    "stars": 5,
+    "pricePerNight": 1150,
+    "distance": "90m",
+    "image": "/images/madinah/taqwa.jpg"
+  },
+
+  {
+    "id": "mdn-005",
+    "city": "Madinah",
+    "name": "Saja Al Madinah",
+    "stars": 4,
+    "pricePerNight": 550,
+    "distance": "250m",
+    "image": "/images/madinah/saja.jpg"
+  },
+  {
+    "id": "mdn-006",
+    "city": "Madinah",
+    "name": "Taiba Front Hotel",
+    "stars": 4,
+    "pricePerNight": 600,
+    "distance": "220m",
+    "image": "/images/madinah/taiba-front.jpg"
+  },
+  {
+    "id": "mdn-007",
+    "city": "Madinah",
+    "name": "Odst Al Madinah",
+    "stars": 4,
+    "pricePerNight": 520,
+    "distance": "350m",
+    "image": "/images/madinah/odst.jpg"
+  },
+  {
+    "id": "mdn-008",
+    "city": "Madinah",
+    "name": "Al Eiman Taibah Hotel",
+    "stars": 4,
+    "pricePerNight": 500,
+    "distance": "300m",
+    "image": "/images/madinah/taibah.jpg"
+  },
+
+  {
+    "id": "mdn-009",
+    "city": "Madinah",
+    "name": "Jewar Al Saqefah Hotel",
+    "stars": 3,
+    "pricePerNight": 350,
+    "distance": "400m",
+    "image": "/images/madinah/jewar.jpg"
+  },
+  {
+    "id": "mdn-010",
+    "city": "Madinah",
+    "name": "Al Mukhtara International",
+    "stars": 3,
+    "pricePerNight": 330,
+    "distance": "500m",
+    "image": "/images/madinah/mukhtara.jpg"
+  },
+  {
+    "id": "mdn-011",
+    "city": "Madinah",
+    "name": "Concorde Al Khair",
+    "stars": 3,
+    "pricePerNight": 320,
+    "distance": "550m",
+    "image": "/images/madinah/concorde.jpg"
+  },
+  {
+    "id": "mdn-012",
+    "city": "Madinah",
+    "name": "Al Eiman Ohud Hotel",
+    "stars": 3,
+    "pricePerNight": 310,
+    "distance": "600m",
+    "image": "/images/madinah/ohud.jpg"
+  },
+
+  {
+    "id": "mdn-013",
+    "city": "Madinah",
+    "name": "Manazil Al Madinah",
+    "stars": 2,
+    "pricePerNight": 180,
+    "distance": "900m",
+    "image": "/images/madinah/manazil.jpg"
+  },
+  {
+    "id": "mdn-014",
+    "city": "Madinah",
+    "name": "Al Ansar Golden Hotel",
+    "stars": 2,
+    "pricePerNight": 170,
+    "distance": "1100m",
+    "image": "/images/madinah/ansar-golden.jpg"
+  },
+  {
+    "id": "mdn-015",
+    "city": "Madinah",
+    "name": "Azhari Hotel",
+    "stars": 2,
+    "pricePerNight": 160,
+    "distance": "1300m",
+    "image": "/images/madinah/azhari.jpg"
+  }
+]

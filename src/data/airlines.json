@@ -1,0 +1,296 @@
+[
+  {
+    "id": "air-001",
+    "name": "Pakistan International Airlines",
+    "code": "PK",
+    "logo": null
+  },
+  { "id": "air-002", "name": "AirBlue", "code": "PA", "logo": null },
+  { "id": "air-003", "name": "SereneAir", "code": "ER", "logo": null },
+  { "id": "air-004", "name": "AirSial", "code": "S3", "logo": null },
+  { "id": "air-005", "name": "Shaheen Air", "code": "NL", "logo": null },
+  { "id": "air-006", "name": "Air Indus", "code": "ND", "logo": null },
+  { "id": "air-007", "name": "Emirates", "code": "EK", "logo": null },
+  { "id": "air-008", "name": "Qatar Airways", "code": "QR", "logo": null },
+  { "id": "air-009", "name": "Etihad Airways", "code": "EY", "logo": null },
+  { "id": "air-010", "name": "Saudia", "code": "SV", "logo": null },
+  { "id": "air-011", "name": "flynas", "code": "XY", "logo": null },
+  { "id": "air-012", "name": "flydubai", "code": "FZ", "logo": null },
+  { "id": "air-013", "name": "Air Arabia", "code": "G9", "logo": null },
+  { "id": "air-014", "name": "Oman Air", "code": "WY", "logo": null },
+  { "id": "air-015", "name": "Gulf Air", "code": "GF", "logo": null },
+  { "id": "air-016", "name": "Kuwait Airways", "code": "KU", "logo": null },
+  { "id": "air-017", "name": "Jazeera Airways", "code": "J9", "logo": null },
+  {
+    "id": "air-018",
+    "name": "Middle East Airlines",
+    "code": "ME",
+    "logo": null
+  },
+  { "id": "air-019", "name": "Royal Jordanian", "code": "RJ", "logo": null },
+  { "id": "air-020", "name": "Iran Air", "code": "IR", "logo": null },
+  { "id": "air-021", "name": "Turkish Airlines", "code": "TK", "logo": null },
+  { "id": "air-022", "name": "British Airways", "code": "BA", "logo": null },
+  { "id": "air-023", "name": "Lufthansa", "code": "LH", "logo": null },
+  { "id": "air-024", "name": "Air France", "code": "AF", "logo": null },
+  {
+    "id": "air-025",
+    "name": "KLM Royal Dutch Airlines",
+    "code": "KL",
+    "logo": null
+  },
+  { "id": "air-026", "name": "Iberia", "code": "IB", "logo": null },
+  {
+    "id": "air-027",
+    "name": "SAS Scandinavian Airlines",
+    "code": "SK",
+    "logo": null
+  },
+  { "id": "air-028", "name": "Finnair", "code": "AY", "logo": null },
+  {
+    "id": "air-029",
+    "name": "Swiss International Air Lines",
+    "code": "LX",
+    "logo": null
+  },
+  { "id": "air-030", "name": "Austrian Airlines", "code": "OS", "logo": null },
+  { "id": "air-031", "name": "Aer Lingus", "code": "EI", "logo": null },
+  { "id": "air-032", "name": "Aeroflot", "code": "SU", "logo": null },
+  { "id": "air-033", "name": "Aegean Airlines", "code": "A3", "logo": null },
+  {
+    "id": "air-034",
+    "name": "Alitalia (ITA Airways)",
+    "code": "AZ",
+    "logo": null
+  },
+  { "id": "air-035", "name": "Ryanair", "code": "FR", "logo": null },
+  { "id": "air-036", "name": "easyJet", "code": "U2", "logo": null },
+  { "id": "air-037", "name": "Wizz Air", "code": "W6", "logo": null },
+  { "id": "air-038", "name": "Vueling", "code": "VY", "logo": null },
+  { "id": "air-039", "name": "Eurowings", "code": "EW", "logo": null },
+  { "id": "air-040", "name": "Transavia", "code": "HV", "logo": null },
+  {
+    "id": "air-041",
+    "name": "British Midland / bmi (historic)",
+    "code": "BM",
+    "logo": null
+  },
+  { "id": "air-042", "name": "Icelandair", "code": "FI", "logo": null },
+  {
+    "id": "air-043",
+    "name": "Norwegian Air Shuttle",
+    "code": "DY",
+    "logo": null
+  },
+  { "id": "air-044", "name": "TAP Air Portugal", "code": "TP", "logo": null },
+  { "id": "air-045", "name": "S7 Airlines", "code": "S7", "logo": null },
+  { "id": "air-046", "name": "Air Europa", "code": "UX", "logo": null },
+  {
+    "id": "air-047",
+    "name": "LOT Polish Airlines",
+    "code": "LO",
+    "logo": null
+  },
+  {
+    "id": "air-048",
+    "name": "British Airways CityFlyer",
+    "code": "CJ",
+    "logo": null
+  },
+
+  { "id": "air-049", "name": "American Airlines", "code": "AA", "logo": null },
+  { "id": "air-050", "name": "Delta Air Lines", "code": "DL", "logo": null },
+  { "id": "air-051", "name": "United Airlines", "code": "UA", "logo": null },
+  { "id": "air-052", "name": "Southwest Airlines", "code": "WN", "logo": null },
+  { "id": "air-053", "name": "Alaska Airlines", "code": "AS", "logo": null },
+  { "id": "air-054", "name": "JetBlue", "code": "B6", "logo": null },
+  { "id": "air-055", "name": "Spirit Airlines", "code": "NK", "logo": null },
+  { "id": "air-056", "name": "Frontier Airlines", "code": "F9", "logo": null },
+  { "id": "air-057", "name": "Hawaiian Airlines", "code": "HA", "logo": null },
+  {
+    "id": "air-058",
+    "name": "Sun Country Airlines",
+    "code": "SY",
+    "logo": null
+  },
+
+  { "id": "air-059", "name": "Air Canada", "code": "AC", "logo": null },
+  { "id": "air-060", "name": "WestJet", "code": "WS", "logo": null },
+
+  { "id": "air-061", "name": "LATAM Airlines", "code": "LA", "logo": null },
+  { "id": "air-062", "name": "Avianca", "code": "AV", "logo": null },
+  { "id": "air-063", "name": "Aeromexico", "code": "AM", "logo": null },
+  { "id": "air-064", "name": "Copa Airlines", "code": "CM", "logo": null },
+  { "id": "air-065", "name": "Gol Linhas Aéreas", "code": "G3", "logo": null },
+  {
+    "id": "air-066",
+    "name": "Azul Brazilian Airlines",
+    "code": "AD",
+    "logo": null
+  },
+
+  { "id": "air-067", "name": "Singapore Airlines", "code": "SQ", "logo": null },
+  { "id": "air-068", "name": "Cathay Pacific", "code": "CX", "logo": null },
+  {
+    "id": "air-069",
+    "name": "All Nippon Airways (ANA)",
+    "code": "NH",
+    "logo": null
+  },
+  { "id": "air-070", "name": "Japan Airlines", "code": "JL", "logo": null },
+  { "id": "air-071", "name": "Korean Air", "code": "KE", "logo": null },
+  { "id": "air-072", "name": "Asiana Airlines", "code": "OZ", "logo": null },
+  {
+    "id": "air-073",
+    "name": "China Southern Airlines",
+    "code": "CZ",
+    "logo": null
+  },
+  {
+    "id": "air-074",
+    "name": "China Eastern Airlines",
+    "code": "MU",
+    "logo": null
+  },
+  { "id": "air-075", "name": "Air China", "code": "CA", "logo": null },
+  { "id": "air-076", "name": "Hainan Airlines", "code": "HU", "logo": null },
+  { "id": "air-077", "name": "Thai Airways", "code": "TG", "logo": null },
+  { "id": "air-078", "name": "Malaysia Airlines", "code": "MH", "logo": null },
+  {
+    "id": "air-079",
+    "name": "Philippine Airlines",
+    "code": "PR",
+    "logo": null
+  },
+  { "id": "air-080", "name": "Garuda Indonesia", "code": "GA", "logo": null },
+  { "id": "air-081", "name": "Malaysia AirAsia", "code": "AK", "logo": null },
+  { "id": "air-082", "name": "Vietjet Air", "code": "VJ", "logo": null },
+  { "id": "air-083", "name": "Cebu Pacific", "code": "5J", "logo": null },
+  { "id": "air-084", "name": "IndiGo", "code": "6E", "logo": null },
+  { "id": "air-085", "name": "Vistara", "code": "UK", "logo": null },
+  { "id": "air-086", "name": "SpiceJet", "code": "SG", "logo": null },
+  { "id": "air-087", "name": "Go First", "code": "G8", "logo": null },
+  { "id": "air-088", "name": "Air India", "code": "AI", "logo": null },
+  { "id": "air-089", "name": "Air India Express", "code": "IX", "logo": null },
+
+  { "id": "air-090", "name": "Ethiopian Airlines", "code": "ET", "logo": null },
+  { "id": "air-091", "name": "Kenya Airways", "code": "KQ", "logo": null },
+  {
+    "id": "air-092",
+    "name": "South African Airways",
+    "code": "SA",
+    "logo": null
+  },
+  { "id": "air-093", "name": "Royal Air Maroc", "code": "AT", "logo": null },
+  { "id": "air-094", "name": "Tunisair", "code": "TU", "logo": null },
+  { "id": "air-095", "name": "EgyptAir", "code": "MS", "logo": null },
+
+  { "id": "air-096", "name": "Qantas", "code": "QF", "logo": null },
+  { "id": "air-097", "name": "Air New Zealand", "code": "NZ", "logo": null },
+  { "id": "air-098", "name": "Virgin Australia", "code": "VA", "logo": null },
+  { "id": "air-099", "name": "Fiji Airways", "code": "FJ", "logo": null },
+
+  { "id": "air-100", "name": "S7 Regional", "code": "S5", "logo": null },
+  { "id": "air-101", "name": "Blue Air", "code": "0B", "logo": null },
+  { "id": "air-102", "name": "Jet2.com", "code": "LS", "logo": null },
+  { "id": "air-103", "name": "TUI Airways", "code": "BY", "logo": null },
+  { "id": "air-104", "name": "Eurowings Discover", "code": "2G", "logo": null },
+
+  { "id": "air-105", "name": "Czech Airlines", "code": "OK", "logo": null },
+  { "id": "air-106", "name": "Belavia", "code": "B2", "logo": null },
+  { "id": "air-107", "name": "Air Malta", "code": "KM", "logo": null },
+
+  {
+    "id": "air-108",
+    "name": "PAL Airlines (Canada regional)",
+    "code": "7E",
+    "logo": null
+  },
+  { "id": "air-109", "name": "Porter Airlines", "code": "PD", "logo": null },
+  { "id": "air-110", "name": "Sunwing Airlines", "code": "WG", "logo": null },
+
+  { "id": "air-111", "name": "Cargolux", "code": "CV", "logo": null },
+  { "id": "air-112", "name": "Korean Air Cargo", "code": "KE", "logo": null },
+
+  {
+    "id": "air-113",
+    "name": "Biman Bangladesh Airlines",
+    "code": "BG",
+    "logo": null
+  },
+  { "id": "air-114", "name": "Drukair", "code": "KB", "logo": null },
+  {
+    "id": "air-115",
+    "name": "Iran Aseman Airlines",
+    "code": "EP",
+    "logo": null
+  },
+
+  { "id": "air-116", "name": "TAROM", "code": "RO", "logo": null },
+  {
+    "id": "air-117",
+    "name": "HOP! (Air France regional)",
+    "code": "A5",
+    "logo": null
+  },
+  { "id": "air-118", "name": "China Airlines", "code": "CI", "logo": null },
+  { "id": "air-119", "name": "EVA Air", "code": "BR", "logo": null },
+  { "id": "air-120", "name": "Bangkok Airways", "code": "PG", "logo": null },
+
+  {
+    "id": "air-121",
+    "name": "Korean Air Shuttle (regional)",
+    "code": "KE",
+    "logo": null
+  },
+  { "id": "air-122", "name": "Juneyao Airlines", "code": "HO", "logo": null },
+  { "id": "air-123", "name": "Spring Airlines", "code": "9C", "logo": null },
+  { "id": "air-124", "name": "Scoot", "code": "TR", "logo": null },
+  { "id": "air-125", "name": "Tigerair", "code": "TT", "logo": null },
+
+  { "id": "air-126", "name": "Komair (regional)", "code": "OE", "logo": null },
+  { "id": "air-127", "name": "Nepal Airlines", "code": "RA", "logo": null },
+  { "id": "air-128", "name": "RwandAir", "code": "WB", "logo": null },
+
+  { "id": "air-129", "name": "Air Mauritius", "code": "MK", "logo": null },
+  { "id": "air-130", "name": "Air Seychelles", "code": "HM", "logo": null },
+  {
+    "id": "air-131",
+    "name": "Malindo Air (Batik Air Malaysia)",
+    "code": "OD",
+    "logo": null
+  },
+
+  {
+    "id": "air-132",
+    "name": "West African Air Services (regional)",
+    "code": "W4",
+    "logo": null
+  },
+  {
+    "id": "air-133",
+    "name": "Cambodia Angkor Air",
+    "code": "K6",
+    "logo": null
+  },
+  {
+    "id": "air-134",
+    "name": "Royal Brunei Airlines",
+    "code": "BI",
+    "logo": null
+  },
+
+  { "id": "air-135", "name": "Pegasus Airlines", "code": "PC", "logo": null },
+  { "id": "air-136", "name": "SunExpress", "code": "XQ", "logo": null },
+
+  { "id": "air-137", "name": "Air Tahiti Nui", "code": "TN", "logo": null },
+  { "id": "air-138", "name": "Air Calin", "code": "SB", "logo": null },
+
+  {
+    "id": "air-139",
+    "name": "MasAir Cargo (Mexico)",
+    "code": "C7",
+    "logo": null
+  },
+  { "id": "air-140", "name": "Iberia Express", "code": "I2", "logo": null }
+]
