@@ -7,23 +7,6 @@ import html2canvas from "html2canvas";
 
 /**
  * exportPdf
- * Renders element to a single A4 page, high quality.
- *
- * options:
- *  - format: 'a4' (default)
- *  - unit: 'mm' (default)
- *  - orientation: 'portrait'|'landscape' (default 'portrait')
- *  - margin: number mm (default 8)
- *  - scale: html2canvas scale (default 3) — increase for sharper images (costs memory/time)
- *  - backgroundColor: canvas background (default '#ffffff')
- *  - imageType: 'png'|'jpeg' (default 'png')
- *  - imageQuality: number 0..1 (jpeg only)
- *  - skipSave: boolean (if true, don't call pdf.save; return Blob)
- *  - returnBlob: boolean (alias for skipSave)
- *
- * Returns:
- *  - If skipSave/returnBlob true => resolves to PDF Blob
- *  - Otherwise resolves to true (after saving file)
  */
 export async function exportPdf(
   element,
@@ -48,33 +31,56 @@ export async function exportPdf(
   // Create PDF
   const pdf = new jsPDF({ unit, format, orientation });
 
-  // Page size in mm
+  // Page size
   const pageWidthMm = pdf.internal.pageSize.getWidth();
   const pageHeightMm = pdf.internal.pageSize.getHeight();
 
-  // Render element with html2canvas
+  // ===============================
+  // ⭐ ROOT FIX — FORCE A4 WIDTH
+  // ===============================
+  const originalStyle = {
+    width: element.style.width,
+    maxWidth: element.style.maxWidth,
+    margin: element.style.margin,
+  };
+
+  element.style.width = "794px"; // A4 width @96dpi
+  element.style.maxWidth = "none";
+  element.style.margin = "0 auto";
+
+  // ===============================
+  // RENDER WITH html2canvas
+  // ===============================
   const canvas = await html2canvas(element, {
-    scale: scale,
-    backgroundColor: backgroundColor,
+    scale,
+    backgroundColor,
     useCORS: true,
     logging: false,
 
-    // ⭐⭐ ROOT FIX ⭐⭐
-    onclone: (clonedDoc) => {
-      // PDF ke liye gradient-text ko normal text bana do
-      clonedDoc.querySelectorAll(".bg-clip-text").forEach((el) => {
+    // ⭐ FIX GRADIENT TEXT (Agency / Name)
+    onclone: (doc) => {
+      doc.querySelectorAll(".bg-clip-text").forEach((el) => {
         el.classList.remove("bg-clip-text", "text-transparent");
         el.style.color = "#6d28d9"; // purple-700
-
         el.style.background = "none";
       });
     },
   });
 
-  // Prefer PNG for lossless quality; JPEG only if explicitly requested
-  const outType = (imageType || "png").toLowerCase();
+  // ===============================
+  // ⭐ RESTORE ORIGINAL STYLES
+  // ===============================
+  element.style.width = originalStyle.width;
+  element.style.maxWidth = originalStyle.maxWidth;
+  element.style.margin = originalStyle.margin;
+
+  // ===============================
+  // IMAGE → PDF
+  // ===============================
+  const outType = imageType.toLowerCase();
   const mime =
     outType === "jpeg" || outType === "jpg" ? "image/jpeg" : "image/png";
+
   const dataUrl =
     mime === "image/png"
       ? canvas.toDataURL("image/png")
@@ -83,26 +89,20 @@ export async function exportPdf(
   const imgWidthPx = canvas.width;
   const imgHeightPx = canvas.height;
 
-  // Convert page inner area (minus margins) to px (approx 96 DPI)
-  const innerWidthMm = pageWidthMm - 2 * margin;
-  const innerHeightMm = pageHeightMm - 2 * margin;
+  // inner page size (px)
+  const innerWidthMm = pageWidthMm - margin * 2;
+  const innerHeightMm = pageHeightMm - margin * 2;
   const pageWidthPx = Math.round((innerWidthMm * 96) / 25.4);
-  const pageHeightPx = Math.round((innerHeightMm * 96) / 25.4);
 
-  // Compute scale to fit entire canvas into one page
+  // ⭐ MOBILE-SAFE SCALE (WIDTH FIRST)
   const finalScale = Math.min(pageWidthPx / imgWidthPx, 1);
 
-  // Calculate final dimensions in mm for pdf.addImage
   const finalWidthMm = (imgWidthPx * finalScale * 25.4) / 96;
   const finalHeightMm = (imgHeightPx * finalScale * 25.4) / 96;
 
-  // center horizontally, top margin for vertical centering optional (we keep top margin)
   const x = margin;
+  const y = margin + Math.max(0, (innerHeightMm - finalHeightMm) / 6);
 
-  const y = margin + Math.max(0, (innerHeightMm - finalHeightMm) / 6); // small top offset for balance
-
-  // Add image to PDF
-  // jsPDF supports 'PNG' and 'JPEG'
   pdf.addImage(
     dataUrl,
     mime === "image/png" ? "PNG" : "JPEG",
@@ -112,14 +112,10 @@ export async function exportPdf(
     finalHeightMm
   );
 
-  // If user requested Blob back (for opening in new tab / print), return Blob
   if (skipSave || returnBlob) {
-    // return Blob for further handling
-    const blob = pdf.output("blob");
-    return blob;
+    return pdf.output("blob");
   }
 
-  // Otherwise save file and return true
   pdf.save(fileName);
   return true;
 }
