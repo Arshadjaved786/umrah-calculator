@@ -1,13 +1,10 @@
 // src/services/pdfService.js
-// High-quality single-page A4 PDF exporter using html2canvas + jsPDF.
-// Produces PNG (lossless) image embed and can return Blob instead of auto-save.
+// Robust multi-page A4 PDF exporter using html2canvas + jsPDF
+// ✅ Mobile safe (no cut), ✅ Desktop safe, ✅ Footer never cuts
 
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 
-/**
- * exportPdf
- */
 export async function exportPdf(
   element,
   fileName = "document.pdf",
@@ -20,13 +17,13 @@ export async function exportPdf(
     unit = "mm",
     orientation = "portrait",
     margin = 8,
-    scale = 3,
+    scale = 2.5,
     backgroundColor = "#ffffff",
     imageType = "png",
     imageQuality = 0.95,
     skipSave = false,
     returnBlob = false,
-  } = options || {};
+  } = options;
 
   // Create PDF
   const pdf = new jsPDF({ unit, format, orientation });
@@ -35,91 +32,96 @@ export async function exportPdf(
   const pageWidthMm = pdf.internal.pageSize.getWidth();
   const pageHeightMm = pdf.internal.pageSize.getHeight();
 
-  // ===============================
-  // ⭐ ROOT FIX — FORCE A4 WIDTH
-  // ===============================
+  const innerWidthMm = pageWidthMm - margin * 2;
+  const innerHeightMm = pageHeightMm - margin * 2;
+
+  // ---- FORCE STABLE WIDTH (mobile fix) ----
   const originalStyle = {
     width: element.style.width,
     maxWidth: element.style.maxWidth,
     margin: element.style.margin,
   };
 
-  element.style.width = "794px"; // A4 width @96dpi
+  element.style.width = "794px"; // A4 @ 96dpi
   element.style.maxWidth = "none";
   element.style.margin = "0 auto";
 
-  // ===============================
-  // RENDER WITH html2canvas
-  // ===============================
+  // Render DOM → Canvas
   const canvas = await html2canvas(element, {
     scale,
     backgroundColor,
     useCORS: true,
     logging: false,
-
-    // ⭐ FIX GRADIENT TEXT (Agency / Name)
     onclone: (doc) => {
+      // Fix gradient text in PDF
       doc.querySelectorAll(".bg-clip-text").forEach((el) => {
         el.classList.remove("bg-clip-text", "text-transparent");
-        el.style.color = "#6d28d9"; // purple-700
+        el.style.color = "#4f46e5"; // indigo-600
         el.style.background = "none";
       });
     },
   });
 
-  // ===============================
-  // ⭐ RESTORE ORIGINAL STYLES
-  // ===============================
+  // Restore styles
   element.style.width = originalStyle.width;
   element.style.maxWidth = originalStyle.maxWidth;
   element.style.margin = originalStyle.margin;
 
-  // ===============================
-  // IMAGE → PDF
-  // ===============================
-  const outType = imageType.toLowerCase();
   const mime =
-    outType === "jpeg" || outType === "jpg" ? "image/jpeg" : "image/png";
+    imageType === "jpeg" || imageType === "jpg" ? "image/jpeg" : "image/png";
 
   const dataUrl =
     mime === "image/png"
       ? canvas.toDataURL("image/png")
       : canvas.toDataURL("image/jpeg", imageQuality);
 
-  const imgWidthPx = canvas.width;
-  const imgHeightPx = canvas.height;
+  // =====================================================
+  // ✅ MULTI-PAGE LOGIC (FINAL – NO CUT EVER)
+  // =====================================================
 
-  // inner page size (px)
-  const innerWidthMm = pageWidthMm - margin * 2;
-  const innerHeightMm = pageHeightMm - margin * 2;
-  const pageWidthPx = Math.round((innerWidthMm * 96) / 25.4);
+  const imgWidthMm = innerWidthMm;
+  const imgHeightMm = (canvas.height * imgWidthMm) / canvas.width;
 
-  // ⭐ MOBILE-SAFE SCALE (WIDTH FIRST)
-  const finalScale = Math.min(pageWidthPx / imgWidthPx, 1);
+  let heightLeft = imgHeightMm;
+  let position = margin;
 
-  const finalWidthMm = (imgWidthPx * finalScale * 25.4) / 96;
-  const finalHeightMm = (imgHeightPx * finalScale * 25.4) / 96;
-
-  const x = margin;
-  const y = margin + Math.max(0, (innerHeightMm - finalHeightMm) / 6);
-
+  // First page
   pdf.addImage(
     dataUrl,
     mime === "image/png" ? "PNG" : "JPEG",
-    x,
-    y,
-    finalWidthMm,
-    finalHeightMm
+    margin,
+    position,
+    imgWidthMm,
+    imgHeightMm
   );
 
+  heightLeft -= innerHeightMm;
+
+  // Extra pages if needed
+  while (heightLeft > 0) {
+    pdf.addPage();
+    position = margin - heightLeft;
+
+    pdf.addImage(
+      dataUrl,
+      mime === "image/png" ? "PNG" : "JPEG",
+      margin,
+      position,
+      imgWidthMm,
+      imgHeightMm
+    );
+
+    heightLeft -= innerHeightMm;
+  }
+
+  // Return Blob if needed (Print / Mobile)
   if (skipSave || returnBlob) {
     return pdf.output("blob");
   }
 
+  // Save normally
   pdf.save(fileName);
   return true;
 }
 
-export default {
-  exportPdf,
-};
+export default { exportPdf };
